@@ -1,0 +1,76 @@
+table {
+    border: solid black;
+    /* clear: both; */
+    margin: 50px;
+    margin-top: 0px;
+}
+
+#dis_win {
+    margin: 20%;
+    color: teal;
+
+}
+
+tr {
+    border: solid black;
+}
+
+td {
+    border: solid black;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    text-align: center;
+    font: bold 40px arial;
+}
+
+div h1:nth-child(1) {
+    /* border: 1px solid black; */
+    float: left;
+    color: brown;
+}
+
+
+
+h2 {
+    float: left;
+    margin-bottom: 0px;
+}
+
+div h1:nth-child(2) {
+
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 25px;
+    color: gray;
+}
+
+body > div:nth-child(1) {
+    text-align: center;
+    margin-left: 30%;
+}
+
+
+body > div:nth-child(2) {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    height: 500px;
+    border: solid black;
+    clear: both;
+    margin: 0px 26%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body > div:nth-child(2) h6, button {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 150px;
+    padding: 20px;
+    color: whitesmoke;
+
+}
